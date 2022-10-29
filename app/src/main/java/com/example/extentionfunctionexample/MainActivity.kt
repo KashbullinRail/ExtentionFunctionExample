@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         btn.setOnClickListener {
             openFragment(BlankFragment.newInstance())
+            val b = true
+            showToast(b.toInt().toString())
         }
     }
 }
